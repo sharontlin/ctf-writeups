@@ -8,10 +8,14 @@ I used [apktool](https://ibotpeaches.github.io/Apktool/) and ran `$ apktool d te
 
 The AndroidManifest.XML file showed the app permissions. Since there wasn't a CERT.RSA in the /META-INF folder, finding the certs was a bit trickier.
 
-I used [ripgrep](https://github.com/BurntSushi/ripgrep) to find that the issue may have been that the APK wasn't built and deployed in Android Studio. 
+I used [ripgrep](https://github.com/BurntSushi/ripgrep) to find that the issue may have been that the APK was signed using a V2 signing scheme, which means that there isn't a CERT.RSA file in /META-INF. Using [androguard](https://androguard.readthedocs.io/en/latest/intro/certificates.html) verified this.
+
+I ran `$ androguard sign --all terrortime.apk` to retrieve the SHA256 hash for the signature. To get the common name (CN), 
 
 ## Flags
 
 INTERNET
 
 ACCESS_NETWORK_STATE
+
+a03a8954b2880d24d379eeffc304413b8fc23554c5679e47a9802ee6173af7d9
