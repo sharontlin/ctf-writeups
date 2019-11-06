@@ -1,4 +1,4 @@
-## Task 1 - It Begins! - [Getting Started - Part 1] - (Network Traffic Analysis)Points: 50
+# Task 1 - It Begins! - [Getting Started - Part 1] - (Network Traffic Analysis)Points: 50
 
 ## Intro 
 
