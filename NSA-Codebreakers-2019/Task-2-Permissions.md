@@ -11,4 +11,5 @@ The AndroidManifest.XML file showed the app permissions. Since there wasn't a CE
 ## Flags
 
 INTERNET
+
 ACCESS_NETWORK_STATE
