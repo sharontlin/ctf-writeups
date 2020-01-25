@@ -9,7 +9,8 @@ Obviously, this repo contains spoilers for ongoing competitions. I'll update wit
 - [Crypto Pals](https://cryptopals.com/) - cryptography
 - [OverTheWire](https://overthewire.org/wargames/) - wargames
 - [Pentester Lab](https://pentesterlab.com/) - web hacking
-- [Mod-X](http://www.mod-x.co.uk/main.php - web game 
+- [Mod-X](http://www.mod-x.co.uk/main.php) - web game 
 - [Hack This Site!](https://www.hackthissite.org/) - web hacking
 - [CTFLearn](https://ctflearn.com/) - jeopardy style 
-- [picoCTF](https://picoctf.com/ - jeopardy style 
+- [picoCTF](https://picoctf.com/) - jeopardy style 
+- [Hacker101 CTF](https://ctf.hacker101.com/ctf) - jeopardy style
